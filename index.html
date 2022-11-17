@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+     crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+<h3>Parte 1</h3>
+    <section class="section-img">
+        <img class="img" id="img-button" src="assets/img/25.png" alt="">
+    </section> 
+
+
+<h3>Parte 2</h3>
+<section class="container">
+    <div class="section-img2" >
+        <img src="assets/img/sticker1.png" width="350" height="350"alt="">
+        <article class="dynamic-container">
+            <input type="number" id="cantidad1" class="element" min="1">
+        </article>
+    </div> 
+    <div class="section-img2">
+        <img src="assets/img/sticker2.png" width="350" height="350" alt="">
+        <article class="dynamic-container">
+            <input type="number" id="cantidad2" class="element" min="1"> 
+        </article>
+    </div> 
+    <div class="section-img2">
+        <img src="assets/img/sticker3.png" width="350" height="350"alt="">
+        <article class="dynamic-container">
+            <input type="number" id="cantidad3" class="element" min="1"> 
+        </article>
+    </div> 
+</section>
+
+     <div class="input-container">
+        <p>Total seleccionado <span id="totalNumberSticker">0</span></p>
+        <span class="stickerWarning alert"></span>
+        <button class="buttonStickers">Verificar</button>
+    </div>
+
+
+<h3>Parte 3</h3>
+<article class="container-password">
+    <div class="card">
+        <div class="card-body">
+            <h2>Ingrese Password</h2>
+            <select id="selector1" class="element">
+                <option value="1">1</option> 
+                <option value="2">2</option> 
+                <option value="3">3</option>
+                <option value="4">4</option> 
+                <option value="5">5</option> 
+                <option value="6">6</option>
+                <option value="7">7</option> 
+                <option value="8">8</option> 
+                <option value="9">9</option>
+            </select>
+            <select id="selector2" class="element">
+                <option value="1">1</option> 
+                <option value="2">2</option> 
+                <option value="3">3</option>
+                <option value="4">4</option> 
+                <option value="5">5</option> 
+                <option value="6">6</option>
+                <option value="7">7</option> 
+                <option value="8">8</option> 
+                <option value="9">9</option>
+            </select>
+            <select id="selector3" class="element">
+                <option value="1">1</option> 
+                <option value="2">2</option> 
+                <option value="3">3</option>
+                <option value="4">4</option> 
+                <option value="5">5</option> 
+                <option value="6">6</option>
+                <option value="7">7</option> 
+                <option value="8">8</option> 
+                <option value="9">9</option>
+            </select>
+        </div>
+        <button class="buttonPassword">Ingresar</button>
+        <span class="password alert"></span>
+    </div>
+</article>
+
+
+
+<script src="app.js"></script>
+</body>
+</html>

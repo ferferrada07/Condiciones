@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    border: 0px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+/*parte 1*/
+.section-img{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    width: 100%;
+}
+.img{
+    width: 20%;
+}
+.borde{
+    border: 2px solid red;
+  }
+
+
+/*parte2*/
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.dynamic-container{
+    display: flex;
+    justify-content: center;
+}
+img{
+    justify-content: center;
+    width: 100%;
+}
+.input-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+}
+.stickerWarning{
+ display: flex;
+}
+
+
+
+/*parte3*/
+.container-password{
+    display: flex;
+    justify-content: center;
+}
+
+.card-body{
+    width: 350px;
+    border-radius: 5px;
+    text-align: center;
+}
+.element{
+    margin: 10px;
+}
+.password{
+    display: flex;
+    justify-content: center;
+}
